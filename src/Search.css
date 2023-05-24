@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form {
+    background: white;
+    max-width: 600px;
+    padding: 1rem 2rem;
+    margin-bottom: 4rem;
+    margin-left: 20rem;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.form input {
+    background: white;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.form input[type=text] {
+    width: 300px;
+    height: 25px;
+}
+
+.form input[type=text]:focus {
+    border: 1px solid;
+}
+
+.button {
+    background-color: #A31E39;
+    border-color: #A31E39;
+    border-radius: 5px;
+    border-style: unset;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #A31E39;
+    border-color: #A31E39;
+}
